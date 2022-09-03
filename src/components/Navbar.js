@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react'
+import { IconContext } from 'react-icons';
 import { Link } from 'react-router-dom'
 import { Button } from './Button';
 import './Navbar.css'
+
 
 export const Navbar = () => {
     const [click, setClick] = useState(false);
@@ -16,21 +18,24 @@ export const Navbar = () => {
         } else {
             setButton(true);
         }
-    };
+    }
 
     useEffect(() => {
         showButton();
+        window.addEventListener('resize', showButton);
+        return window.addEventListener('resize', showButton);
     }, [])
 
 
-    window.addEventListener('resize', showButton);
+    
 
     return (
         <>
+        <IconContext.Provider value={{color: '#fff'}}>
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className="navbar-logo">
-                        LP <i className='fab fa-typo3'></i>
+                        ADVENTURE <i className='fab fa-typo3'></i>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -72,6 +77,7 @@ export const Navbar = () => {
                     {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
                 </div>
             </nav>
+            </IconContext.Provider>
         </>
     )
 }
