@@ -26,9 +26,6 @@ export const Navbar = () => {
         return window.addEventListener('resize', showButton);
     }, [])
 
-
-    
-
     return (
         <>
         <IconContext.Provider value={{color: '#fff'}}>
