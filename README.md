@@ -1,71 +1,24 @@
-# Getting Started with Create React App
+# Adventure Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+A React JS website built from scratch using mainly React Hooks and React Router. The website is fully responsive across screen sizes with an attractive dark theme, reusable card components, and can easily be customized with animated background for header and throughout the interface.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Efficient and pleasant User Interface
+- Reusable components throughout code
+- Hover and animation effects, card links
+- Responsive format on different devices
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## DEVELOPMENT & DESIGN
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Once the React files were initialized, the code debugged and set up for the project with necessary imports, React Router navigational components were implemented. From there, development and design of the UI followed. Navbar and button components were developed and styled with a mobile responsive hamburger menu that opens and closes with clean and easy to use navigation links. Some changeable options for the Hero container background include a static image of natural wilderness accessed via CSS or an exciting animated, adventurous video clip within the JS functionality.
 
-### `npm test`
+## Pages & Card Components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+With the navigation bar working across screens, the hero section background in place, and the functional button components looking good, next came the creation of the pages and the card components for them. The reusable card components have a magnifying effect upon hover and can be placed into rows of two or more, as desired and depending upon the total number per page or prioritization of sizing for each. For the home page desktop version we have a row of two cards, and then a row of three cards. These cards responsify and condense down by stacking on top of each other to accommodate smaller screen sizes.
 
-### `npm run build`
+## Footer & Finalization
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration).
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# Resposive-Website-using-React"
+This project was wrapped up with the beautiful footer component, offering various links and resources for more information. At the top of the footer is the call to action which contains a basic subscription form element with email field and button. Following the CTA are columnized lists with secondary links for assistance and services. Lastly is the logo with home page link, copyright and traditional social media icons with associated links.
