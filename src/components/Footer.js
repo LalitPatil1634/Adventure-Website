@@ -68,7 +68,7 @@ function Footer() {
             </Link>
           </div>
           <small className='website-rights'>ADVENTURE © 2022</small>
-          <div className='social-icons'>
+          {/* <div className='social-icons'>
             <Link
               className='social-icon-link facebook'
               to='/'
@@ -84,7 +84,7 @@ function Footer() {
               aria-label='Instagram'
             >
               <i className='fab fa-instagram' />
-            </Link>
+            </Link> */}
             {/* <Link
               className='social-icon-link youtube'
               to='/'
@@ -93,7 +93,7 @@ function Footer() {
             >
               <i className='fab fa-youtube' />
             </Link> */}
-            <Link
+            {/* <Link
               className='social-icon-link twitter'
               to='/'
               target='_blank'
@@ -108,8 +108,8 @@ function Footer() {
               aria-label='LinkedIn'
             >
               <i className='fab fa-linkedin' />
-            </Link>
-          </div>
+            </Link> */}
+          {/* </div> */}
         </div>
       </section>
     </div>
