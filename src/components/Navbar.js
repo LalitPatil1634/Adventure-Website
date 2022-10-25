@@ -58,7 +58,7 @@ export const Navbar = () => {
                                 className='nav-links'
                                 onClick={closeMobileMenu}
                             >
-                                Products
+                                About
                             </Link>
                         </li>
                         <li>
