@@ -1,0 +1,19 @@
+.title {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.review {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img{
+    background-size: 40px;
+}
+
+h4 {
+    font-size: 40px;
+}
