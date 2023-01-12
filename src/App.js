@@ -5,7 +5,7 @@ import { Navbar } from './components/Navbar';
 import Home from './components/pages/Home'
 import Services from './components/pages/Service/Services'
 import About from './components/pages/About/About';
-import SignUp from './components/pages/SignUp';
+// import SignUp from './components/pages/SignUp';
 
 
 function App() {
@@ -21,8 +21,8 @@ function App() {
             {<Services />} />
           <Route path='/products' exact element=
             {<About />} />
-          <Route path='/sign-up' exact element=
-            {<SignUp />} />
+          {/* <Route path='/sign-up' exact element=
+            {<SignUp />} /> */}
         </Routes>
       </BrowserRouter>
     </>
